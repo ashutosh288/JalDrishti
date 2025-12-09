@@ -1,0 +1,84 @@
+{
+  "stats": {
+    "activeSites": 247,
+    "anomaliesDetected": 8,
+    "verifiedSubmissions": 1847,
+    "communityReports": 324
+  },
+  "monitoringSites": [
+    { "id": 1, "name": "Yamuna - Delhi", "lat": 28.6139, "lng": 77.209, "status": "normal", "waterLevel": 4.2, "dangerLevel": 6.5, "state": "Delhi" },
+    { "id": 2, "name": "Ganga - Varanasi", "lat": 25.3176, "lng": 82.9739, "status": "warning", "waterLevel": 5.8, "dangerLevel": 6.0, "state": "Uttar Pradesh" },
+    { "id": 3, "name": "Brahmaputra - Guwahati", "lat": 26.1445, "lng": 91.7362, "status": "critical", "waterLevel": 7.2, "dangerLevel": 7.0, "state": "Assam" },
+    { "id": 4, "name": "Godavari - Nashik", "lat": 19.9975, "lng": 73.7898, "status": "normal", "waterLevel": 3.1, "dangerLevel": 5.5, "state": "Maharashtra" },
+    { "id": 5, "name": "Krishna - Vijayawada", "lat": 16.5062, "lng": 80.648, "status": "warning", "waterLevel": 4.9, "dangerLevel": 5.2, "state": "Andhra Pradesh" },
+    { "id": 6, "name": "Cauvery - Mysore", "lat": 12.2958, "lng": 76.6394, "status": "normal", "waterLevel": 2.8, "dangerLevel": 4.5, "state": "Karnataka" },
+    { "id": 7, "name": "Narmada - Jabalpur", "lat": 23.1815, "lng": 79.9864, "status": "normal", "waterLevel": 3.5, "dangerLevel": 5.0, "state": "Madhya Pradesh" },
+    { "id": 8, "name": "Mahanadi - Cuttack", "lat": 20.4625, "lng": 85.8828, "status": "warning", "waterLevel": 5.1, "dangerLevel": 5.5, "state": "Odisha" },
+    { "id": 9, "name": "Tapi - Surat", "lat": 21.1702, "lng": 72.8311, "status": "normal", "waterLevel": 2.4, "dangerLevel": 4.0, "state": "Gujarat" },
+    { "id": 10, "name": "Sutlej - Ludhiana", "lat": 30.9010, "lng": 75.8573, "status": "normal", "waterLevel": 3.2, "dangerLevel": 4.8, "state": "Punjab" }
+  ],
+  "recentAlerts": [
+    {
+      "id": "ALT-2847",
+      "title": "Critical Water Level",
+      "message": "Brahmaputra river has exceeded danger mark by 0.5m. Immediate attention required.",
+      "severity": "critical",
+      "location": "Guwahati, Assam",
+      "time": "5 min ago"
+    },
+    {
+      "id": "ALT-2846",
+      "title": "Heavy Rainfall Warning",
+      "message": "IMD predicts heavy rainfall in Krishna basin. Pre-emptive measures advised.",
+      "severity": "warning",
+      "location": "Vijayawada, AP",
+      "time": "23 min ago"
+    },
+    {
+      "id": "ALT-2845",
+      "title": "Drone Verification Complete",
+      "message": "Aerial verification completed for Godavari Site #42. All readings confirmed.",
+      "severity": "info",
+      "location": "Nashik, MH",
+      "time": "1 hr ago"
+    }
+  ],
+  "floodProbability": {
+    "percentage": 42,
+    "trend": "rising",
+    "rainfallIntensity": "moderate",
+    "prediction24h": "45%"
+  },
+  "trustMetrics": {
+    "aiConfidence": 87,
+    "blockchainValid": true,
+    "droneVerified": false
+  },
+  "waterLevelHistory": [
+    { "time": "00:00", "level": 4.2 },
+    { "time": "04:00", "level": 4.5 },
+    { "time": "08:00", "level": 4.8 },
+    { "time": "12:00", "level": 5.2 },
+    { "time": "16:00", "level": 5.0 },
+    { "time": "20:00", "level": 4.7 },
+    { "time": "24:00", "level": 4.4 }
+  ],
+  "adminStats": {
+    "totalUsers": 1247,
+    "submissionsToday": 347,
+    "avgAccuracy": 94.2,
+    "avgResponseTime": "4.2m"
+  },
+  "tamperAlerts": [
+    { "id": 1, "siteId": "BRM-GUW-002", "reason": "GPS Spoofing Detected", "time": "2 hrs ago" },
+    { "id": 2, "siteId": "YAM-DEL-001", "reason": "Edited Image Detected", "time": "5 hrs ago" },
+    { "id": 3, "siteId": "GNG-PAT-003", "reason": "Metadata Mismatch", "time": "1 day ago" }
+  ],
+  "notifications": [
+    { "id": 1, "title": "New Alert", "message": "Critical water level at Brahmaputra", "type": "critical", "read": false, "time": "5 min ago" },
+    { "id": 2, "title": "Submission Approved", "message": "Your reading REC-2024-00845 was approved", "type": "success", "read": false, "time": "15 min ago" },
+    { "id": 3, "title": "System Update", "message": "New AI model deployed for better accuracy", "type": "info", "read": true, "time": "1 hr ago" },
+    { "id": 4, "title": "Weather Alert", "message": "Heavy rainfall expected in Krishna basin", "type": "warning", "read": true, "time": "2 hrs ago" }
+  ],
+  "offlineQueue": []
+}
